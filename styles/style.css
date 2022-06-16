@@ -131,7 +131,14 @@ font-family: 'Tourney', cursive; */
 .nav-list {
   width: 385px;
 }
-
+/*----------rework--------- */
 section {
   margin-top: -760px;
 }
+
+.relativ {
+  position: relative;
+  top: 120px;
+  width: 785px;
+}
+/* -----------------rework------------ */
