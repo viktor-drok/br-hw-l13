@@ -115,7 +115,7 @@ font-family: 'Tourney', cursive; */
 }
 
 .nav-link {
-  font-family: 'Francois One';
+  font-family: 'Francois One', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -148,7 +148,7 @@ font-family: 'Tourney', cursive; */
 
 .section-title {
   display: block;
-  font-family: 'Francois One';
+  font-family: 'Francois One', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -166,7 +166,7 @@ font-family: 'Tourney', cursive; */
 }
 
 .section-text {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 28px;
@@ -188,24 +188,13 @@ font-family: 'Tourney', cursive; */
   margin-bottom: 70px;
 }
 
-/* .intro .section-title::after {
-  content: 'Chapter 1';
-  font-family: 'Farro';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 30px;
-  line-height: 30px;
-  letter-spacing: 0.04em;
-  color: #000000;
-} */
-
 .superscript {
-  font-family: 'Farro';
+  font-family: 'Farro', sans-serif;
   text-transform: capitalize;
   font-style: normal;
   font-weight: 300;
   font-size: 30px;
-  line-height: 30px;
+  line-height: 1;
   letter-spacing: 0.04em;
   color: #000000;
   margin-left: 10px;
