@@ -21,7 +21,27 @@ font-family: 'Tourney', cursive; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 85px;
+
+  position: relative;
+  z-index: 2;
+}
+
+.header-content {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 99;
+}
+
+.header-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
 }
 
 .header-links-list {
@@ -66,4 +86,12 @@ font-family: 'Tourney', cursive; */
 .slash {
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.content {
+  padding-top: 120px;
+}
+
+.main {
+  display: flex;
 }
