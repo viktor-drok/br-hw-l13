@@ -21,7 +21,6 @@ font-family: 'Tourney', cursive; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   position: relative;
   z-index: 2;
 }
@@ -99,8 +98,11 @@ font-family: 'Tourney', cursive; */
   display: flex;
 }
 
-.main-content {
-  position: relative;
+.sticky-img {
+  margin-left: 300px;
+  position: sticky;
+  top: 65px;
+  z-index: -1;
 }
 
 .sidebar {
@@ -110,4 +112,26 @@ font-family: 'Tourney', cursive; */
 .nav {
   position: sticky;
   top: 65px;
+}
+
+.nav-link {
+  font-family: 'Francois One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #000000;
+  border-bottom: 1px solid #bdbdbd;
+  display: inline-block;
+  margin-bottom: 70px;
+}
+
+.nav-list {
+  width: 385px;
+}
+
+section {
+  margin-top: -760px;
 }
