@@ -162,7 +162,8 @@ font-family: 'Tourney', cursive; */
   content: '';
   display: block;
   width: 100px;
-  border: 8px solid #000000;
+  border: 4px solid #000000;
+  background: #000000;
 }
 
 .section-text {
